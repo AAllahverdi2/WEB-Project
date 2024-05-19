@@ -1,0 +1,37 @@
+.map__div{
+    width: 70%;
+    margin-top: 20px;
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mail__all{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        font-size: 20px;
+    }
+}
+.map__text{
+    width: 70%;
+    margin-top: 20px;
+
+}
+.map__progs{
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: 10px;
+    img{
+        width: 128px;
+        height: 128px;
+    }
+}

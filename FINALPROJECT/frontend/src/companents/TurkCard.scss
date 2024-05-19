@@ -1,0 +1,48 @@
+.turkcard{
+    height: auto;
+    img{
+        width: 97px;
+        height: 154px;
+    }
+}
+.turk__endirim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nowPriceTurk{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button{
+        border: none;
+        width: 70px;
+        height: 40px;
+        i{
+            color: orangered;
+            font-size: 23px;
+        }
+    }
+}
+.bos5{
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+.bos6{
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+.container__top__turk{
+    width: 100%;
+    // height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

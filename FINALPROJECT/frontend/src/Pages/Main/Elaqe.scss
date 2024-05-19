@@ -1,0 +1,31 @@
+.elaqe__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.elaqe__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    &__num{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 900px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.all__div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

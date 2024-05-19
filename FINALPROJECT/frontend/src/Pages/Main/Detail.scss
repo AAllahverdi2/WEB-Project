@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.detail__all__top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail__all__middle{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    width: 50%;
+}
+// .imagedetail{
+//    width: 50%;
+//    height: 50%;
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    margin-left: 200px;
+//     img{
+//         width: 55%;
+//         height: 40%;
+//     }
+// }
+.detail{
+    img{
+        width: 30%;
+        height: 60vh;
+        
+    }
+}
+.nesriyyat{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nesriyyat__text{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.54);
+    width: 100%;
+    height: 40px;
+    // justify-content: center;
+    align-items: center ;
+    strong{
+        color: #005bff;
+    }
+}
+.nesriyyat__yazar{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.351);
+    width: 600px;
+    height: 40px;
+    // justify-content: center;
+    // justify-content: center;
+    align-items: center ;
+    strong{
+        color: #005bff;
+    }
+}
+
+.nesriyyat__basket{
+    width: 600px;
+    height: 100px;
+    border:  1px solid rgba(0, 0, 0, 0.568);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.basket__top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5px;
+    
+    .basket__button{
+
+        button{
+            width: 20px;
+            border: 1px solid gray;
+            border-radius: 50%;
+            font-size: 23px;
+            background-color: white;
+        }
+    }
+}
+.basket__Price{
+    font-size: 23px;
+}
+.sebete{
+    button{
+        width: 150px;
+        background-color: #dc0708;
+        color: white;
+        border: none;
+        height: 30px;
+        border-radius: 14px;
+    }
+}
+.besket__bos{
+    width: 90%;
+    height: 2px;
+    background-color: gray;
+}
+.movcuddur{
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    color: #3c981d;
+
+}
+.basket__buttom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.movcuddur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.online{
+    width: 600px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    &__in{
+        margin-left: 20px;
+        width: 30%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: green;
+
+    }
+}
+
+
+
+
+
+
+
+.label_free_delivery  { 
+    padding: 15px; 
+    border-bottom: 1px solid #DEDEDE; 
+    color: #000; 
+    font-weight: 800;
+} 
+
+*,:after,:before { 
+    box-sizing: inherit;
+} 
+
+.fa { 
+    display: inline-block; 
+    font: normal normal normal 14px/1 FontAwesome; 
+    font-size: inherit; 
+    text-rendering: auto; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+i  { 
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-right: 5px;
+} 
+
+.fa-arrow-circle-o-right:before { 
+    content: "\f18e";
+} 
+
+p { 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+} 
+
+.table-wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    font-size: 1rem; 
+    font-weight: normal;
+} 
+
+.table-wrapper .table-row  { 
+    display: flex; 
+    flex-direction: row; 
+    margin-bottom: 0.5rem;
+} 
+
+strong { 
+    font-weight: inherit;
+} 
+
+strong { 
+    font-weight: bolder;
+} 
+
+.table-wrapper .table-row .table-row__first  { 
+    font-weight: bold; 
+    width: 25%; 
+    margin-right: 1rem;
+} 
+
+.table-wrapper .table-row .table-row__second  { 
+    width: 76%;
+} 
+.detail__end{
+    width: 600px;
+    height: auto;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.detail__buuton__text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+

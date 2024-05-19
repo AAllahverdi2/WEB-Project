@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    // gap: 40px;
+  }
+  .edit__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+
+
+
+  .modalScss{
+      form{
+          .row{
+         
+        .col-md-6{
+          .modalFormInside{
+            width: 100%;
+            input{
+              width: 100%;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  
+  

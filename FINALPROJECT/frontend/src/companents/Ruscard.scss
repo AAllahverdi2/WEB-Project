@@ -1,0 +1,50 @@
+.bos3{
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+.bos4{
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+.Ruscontainer__top{
+    width: 100%;
+    // height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.delivery{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+}
+.card{
+    width: 176px;
+    height: 427px;
+}
+.card__image__del{
+    width: 154px;
+    height: 154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 97px;
+        height: 124px;
+    }
+}
+.card-body{
+    h5{
+        font-size: 16px;
+    }
+
+}

@@ -1,0 +1,52 @@
+.basket__shop{
+    width: 70%;
+    height: 40px;
+    background-color: #dc0708;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.basket__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.basket__table{
+    border: 2px solid rgba(128, 128, 128, 0.646);
+    width: 70%;
+}
+.basket__totalPrice{
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    button{
+        width: 30%;
+        height: 6vh;
+        border-radius: 10px;
+        background-color: #dc0708;
+        border: none;
+        color: white;
+        font-size: 19px;
+    }
+}
+.alisveris{
+    border: 1px solid gray;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    a{
+        color: red;
+    }
+}

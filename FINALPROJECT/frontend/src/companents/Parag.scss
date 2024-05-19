@@ -1,0 +1,32 @@
+.paragrap__imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media only screen and (max-width: 600px) {
+   .paragrap__imgs{
+    display: flex;
+    flex-direction: column;
+    &__imgs{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+   }
+  }
+  .paragrap__text{
+    width: 1140px;
+    h2{
+        color: red;
+    }
+  }
+  .parahrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+  }

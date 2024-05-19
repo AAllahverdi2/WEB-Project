@@ -1,0 +1,120 @@
+.yAnesr{
+   
+    img{
+        width: 100px;
+     }
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.crd{
+    height: auto;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+.nowPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+    gap: 10px;
+    img{
+        width: 50px;
+        height: 50px;
+        background-color: none;
+    }
+    button{
+        border: none;
+        width: 50px;
+        height: 40px;
+        color: orangered;
+
+    }
+    &__price{
+        width: 70px;
+        height: 40px;
+        background-color: rgba(128, 128, 128, 0.289);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    a{
+        
+    }
+}
+.endirim{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    
+
+}
+.card{
+    height: 427px;
+    
+    img{
+        height: 157px;
+        margin-top: 5px;
+    }
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 290px;
+    
+
+    // .card-title{
+    //     white-space: nowrap;
+    //     text-overflow: ellipsis;
+    //     overflow: hidden;
+    //     display: inherit;
+    //     max-inline-size: 140PX;
+    // }
+}
+.duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 140px;
+    height: 25px;
+    background-color: #0376fb;
+    color: white;
+}
+.card__image__dur{
+    height: 290px;
+    padding: 10px;
+}
+
+.bos1{
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+.bos2{
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+.container__top{
+    width: 100%;
+    // height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

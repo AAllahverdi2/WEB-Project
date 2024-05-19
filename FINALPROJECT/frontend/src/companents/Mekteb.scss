@@ -1,0 +1,21 @@
+.mekteb__endirim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nowPriceMekteb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    button{
+        border: none;
+        width: 70px;
+        height: 40px;
+        i{
+            color: orangered;
+            font-size: 23px;
+        }
+    }
+}

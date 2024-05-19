@@ -1,0 +1,327 @@
+footer { 
+    display: block;
+} 
+
+.footer { 
+    position: relative;
+} 
+.footer__all{
+    margin-top: 50px;
+}
+.row { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 1 auto; 
+    flex: 0 1 auto; 
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: row; 
+    flex-direction: row; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    margin-left: -20px; 
+    margin-right: -20px;
+} 
+
+.row { 
+    margin-left: -8px; 
+    margin-right: -8px;
+} 
+
+.footer-bottom { 
+    border-top: 1px solid #dbdbdb; 
+    padding-top: 20px;
+} 
+
+.custom-flex { 
+    flex-wrap: nowrap;
+} 
+
+[class*="cell-"] { 
+    padding-left: 20px; 
+    padding-right: 20px;
+} 
+
+.cell-3 { 
+    max-width: 25%; 
+    -ms-flex-preferred-size: 25%; 
+    flex-basis: 25%;
+} 
+
+[class*="cell-"] { 
+    padding-left: 8px; 
+    padding-right: 8px;
+} 
+
+.cell-8 { 
+    max-width: 66.66667%; 
+    -ms-flex-preferred-size: 66.66667%; 
+    flex-basis: 66.66667%;
+} 
+
+.copyright { 
+    font-size: 13px; 
+    line-height: 18px; 
+    color: #919191; 
+    padding-bottom: 15px;
+} 
+
+.cell-4 { 
+    max-width: 33.33333%; 
+    -ms-flex-preferred-size: 33.33333%; 
+    flex-basis: 33.33333%;
+} 
+
+footer .title  { 
+    color: #dc0708; 
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-bottom: 15px;
+} 
+
+ul { 
+    margin-top: 0; 
+    margin-bottom: 10px;
+} 
+
+.menu { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    -webkit-box-flex: 1; 
+    -ms-flex: 1 1 100%; 
+    flex: 1 1 100%; 
+    list-style: none;
+} 
+
+.footer-menu { 
+    margin-bottom: 1rem;
+} 
+
+a { 
+    background-color: transparent; 
+    cursor: pointer; 
+    -webkit-text-decoration-skip: objects;
+} 
+
+a { 
+    -ms-touch-action: manipulation; 
+    touch-action: manipulation;
+} 
+
+a { 
+    color: #282828; 
+    -webkit-text-decoration: none; 
+    text-decoration: none; 
+    -webkit-transition: color 0.15s ease-out 0.15s; 
+    transition: color 0.15s ease-out 0.15s;
+} 
+
+.copyright a  { 
+    color: #919191; 
+    -webkit-text-decoration: none; 
+    text-decoration: none; 
+    -webkit-transition: color 0.15s ease-out 0.15s; 
+    transition: color 0.15s ease-out 0.15s; 
+    border-bottom: 1px dotted #919191; 
+    margin-right: 20px;
+} 
+
+a:active,a:hover { 
+    color: #dc0708; 
+    -webkit-text-decoration: none; 
+    text-decoration: none;
+} 
+
+.copyright a:active, .copyright a:hover { 
+    color: #525252; 
+    -webkit-text-decoration: none; 
+    text-decoration: none;
+} 
+
+.copyright a:hover { 
+    border-bottom-color: transparent;
+} 
+
+.copyright a:active, .copyright a:focus, .copyright a:hover { 
+    color: #525252; 
+    -webkit-text-decoration: none; 
+    text-decoration: none;
+} 
+
+img { 
+    border-style: none;
+} 
+
+img { 
+    max-width: 100%; 
+    vertical-align: middle;
+} 
+
+.social-menu { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    margin-left: -0.25rem; 
+    margin-right: -0.25rem; 
+    margin-bottom: 25px; 
+    padding: 0;
+} 
+
+.social-menu { 
+    flex-wrap: wrap !important;
+} 
+
+.menu-item { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-box-align: stretch; 
+    -ms-flex-align: stretch; 
+    align-items: stretch; 
+    position: relative;
+} 
+
+.footer-menu-item { 
+    line-height: 25px; 
+    font-size: 13px; 
+    width: 100%;
+} 
+
+.social-menu-item { 
+    list-style-type: none; 
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem;
+} 
+
+.whatsapp { 
+    padding-top: 15px;
+} 
+
+.footer .social-menu-item.banner_phone  { 
+    position: relative; 
+    padding-left: 45px; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 50px; 
+    justify-content: space-around;
+} 
+
+.footer .social-menu-item.banner_phone::before { 
+    content: "\f095"; 
+    color: #dc0708; 
+    display: block; 
+    position: absolute; 
+    top: 0; 
+    left: 0px; 
+    font: 50px FontAwesome;
+} 
+
+.menu-link { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-flex: 1; 
+    -ms-flex: 1 1 auto; 
+    flex: 1 1 auto; 
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: row; 
+    flex-direction: row; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    color: pointer; 
+    word-break: break-word; 
+    white-space: normal;
+} 
+
+.footer-menu-link { 
+    color: #757575; 
+    text-decoration: none; 
+    -webkit-transition: color 0.15s ease-out 0.15s; 
+    transition: color 0.15s ease-out 0.15s;
+} 
+
+.footer-menu-link:hover { 
+    color: #525252;
+} 
+
+.social-menu-link { 
+    color: #757575; 
+    -webkit-text-decoration: none; 
+    text-decoration: none; 
+    -webkit-transition: color 0.15s ease-out 0.15s; 
+    transition: color 0.15s ease-out 0.15s; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center;
+} 
+
+.social-menu-link:active,.social-menu-link:hover { 
+    color: #dc0708; 
+    -webkit-text-decoration: none; 
+    text-decoration: none;
+} 
+
+.fa { 
+    display: inline-block; 
+    font: normal normal normal 14px/1 FontAwesome; 
+    font-size: inherit; 
+    text-rendering: auto; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+.fa-lg { 
+    font-size: 1.33333333em; 
+    line-height: .75em; 
+    vertical-align: -15%;
+} 
+
+.fa-facebook-f:before,.fa-facebook:before { 
+    content: "\f09a";
+} 
+
+.fa-instagram:before { 
+    content: "\f16d";
+} 
+
+.fa-youtube:before { 
+    content: "\f167";
+} 
+
+.fa-twitter:before { 
+    content: "\f099";
+} 
+
+.fa-telegram:before { 
+    content: "\f2c6";
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-V6FZU.style-V6FZU {  
+   max-width:51px;  
+   max-height:32px;  
+}  
+#style-eiYUj.style-eiYUj {  
+   width: 105px;  
+    height: 60px;  
+}  
+#style-iRHos.style-iRHos {  
+   width: 105px;  
+    height: 60px;  
+}  
